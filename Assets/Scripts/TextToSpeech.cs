@@ -9,7 +9,8 @@ using UnityEngine.Networking;
 
 public class TextToSpeech : MonoBehaviour
 {
-    private BasicAWSCredentials credentials = new BasicAWSCredentials("", "");
+    // PLACE YOUR AMAZON ACCESS KEY AND SECRET KEY HERE
+    private BasicAWSCredentials credentials = new BasicAWSCredentials("accesskey", "secretkey");
     private AmazonPollyClient client;
     private AudioSource audioSource;
 
